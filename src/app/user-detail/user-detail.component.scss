@@ -1,0 +1,36 @@
+
+mat-card-content {
+    display: flex;
+}
+
+.user-detail-header {
+    color:white;
+    min-height: 250px;
+    background-color: orange;
+    display: flex;
+    justify-content: end ;
+}
+
+.profile-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.profile-details {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    >h2{
+        margin-bottom: 0px;
+    }
+}
+
+.pin-right-upper-corner {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
